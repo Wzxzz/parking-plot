@@ -1,0 +1,35 @@
+当前脚本的参数如下：
+Namespace(batch_size=64, img_size=64, input_size=64, epochs=30, learning_rate=1e-05, weather='foggy', task='P', model='resnet18')
+当前训练<雾天-车位分类器>
+EPOCH:0		LOSS:1.0602407455444336
+Epoch:0		ACCURACY:46.73%
+EPOCH:1		LOSS:0.30887144804000854
+Epoch:1		ACCURACY:37.38%
+EPOCH:2		LOSS:0.6666845679283142
+Epoch:2		ACCURACY:37.38%
+EPOCH:3		LOSS:0.7001712322235107
+Epoch:3		ACCURACY:30.37%
+EPOCH:4		LOSS:0.40216392278671265
+Epoch:4		ACCURACY:39.72%
+Traceback (most recent call last):
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\train_real.py", line 162, in <module>
+    main()
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\train_real.py", line 84, in main
+    for batchidx, (x, labelP, labelW) in enumerate(train_loader):
+  File "E:\anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "E:\anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "E:\anaconda\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "E:\anaconda\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\dataset2.py", line 79, in __getitem__
+    img = self.tf(img)    # 变为数据
+  File "E:\anaconda\lib\site-packages\torchvision\transforms\transforms.py", line 95, in __call__
+    img = t(img)
+  File "E:\anaconda\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "E:\anaconda\lib\site-packages\torchvision\transforms\transforms.py", line 719, in forward
+    if torch.rand(1) < self.p:
+KeyboardInterrupt

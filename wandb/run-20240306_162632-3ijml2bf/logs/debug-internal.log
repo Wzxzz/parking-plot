@@ -1,0 +1,624 @@
+2024-03-06 16:26:32,107 INFO    StreamThr :2432 [internal.py:wandb_internal():86] W&B internal server running at pid: 2432, started at: 2024-03-06 16:26:32.106839
+2024-03-06 16:26:32,109 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status
+2024-03-06 16:26:32,114 INFO    WriterThread:2432 [datastore.py:open_for_write():85] open: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\run-3ijml2bf.wandb
+2024-03-06 16:26:32,116 DEBUG   SenderThread:2432 [sender.py:send():380] send: header
+2024-03-06 16:26:32,116 DEBUG   SenderThread:2432 [sender.py:send():380] send: run
+2024-03-06 16:26:33,368 INFO    SenderThread:2432 [dir_watcher.py:__init__():211] watching files in: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files
+2024-03-06 16:26:33,378 INFO    SenderThread:2432 [sender.py:_start_run_threads():1122] run started: 3ijml2bf with start time 1709713592.107743
+2024-03-06 16:26:33,391 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: check_version
+2024-03-06 16:26:33,392 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: check_version
+2024-03-06 16:26:33,945 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: run_start
+2024-03-06 16:26:33,990 DEBUG   HandlerThread:2432 [system_info.py:__init__():32] System info init
+2024-03-06 16:26:33,990 DEBUG   HandlerThread:2432 [system_info.py:__init__():47] System info init done
+2024-03-06 16:26:33,990 INFO    HandlerThread:2432 [system_monitor.py:start():181] Starting system monitor
+2024-03-06 16:26:33,991 INFO    SystemMonitor:2432 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-03-06 16:26:33,991 INFO    HandlerThread:2432 [system_monitor.py:probe():201] Collecting system info
+2024-03-06 16:26:33,995 INFO    SystemMonitor:2432 [interfaces.py:start():190] Started cpu monitoring
+2024-03-06 16:26:33,996 INFO    SystemMonitor:2432 [interfaces.py:start():190] Started disk monitoring
+2024-03-06 16:26:33,997 INFO    SystemMonitor:2432 [interfaces.py:start():190] Started gpu monitoring
+2024-03-06 16:26:33,998 INFO    SystemMonitor:2432 [interfaces.py:start():190] Started memory monitoring
+2024-03-06 16:26:34,013 INFO    SystemMonitor:2432 [interfaces.py:start():190] Started network monitoring
+2024-03-06 16:26:34,036 DEBUG   HandlerThread:2432 [system_info.py:probe():196] Probing system
+2024-03-06 16:26:34,037 DEBUG   HandlerThread:2432 [system_info.py:probe():244] Probing system done
+2024-03-06 16:26:34,037 DEBUG   HandlerThread:2432 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.10.9', 'heartbeatAt': '2024-03-06T08:26:34.036362', 'startedAt': '2024-03-06T08:26:32.047462', 'docker': None, 'cuda': None, 'args': ('--task=W', '--weather=mix'), 'state': 'running', 'program': 'E:\\自动驾驶\\车位检测\\parking-space-Identification-in-different-weather-main\\train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'LAPTOP-QIVT4NMT', 'username': 'lenovo', 'executable': 'E:\\anaconda\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2555.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 2555.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'/': {'total': 465.74511337280273, 'used': 132.02807998657227}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.855525970458984}}
+2024-03-06 16:26:34,037 INFO    HandlerThread:2432 [system_monitor.py:probe():211] Finished collecting system info
+2024-03-06 16:26:34,037 INFO    HandlerThread:2432 [system_monitor.py:probe():214] Publishing system info
+2024-03-06 16:26:34,037 DEBUG   HandlerThread:2432 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-03-06 16:26:34,038 DEBUG   HandlerThread:2432 [system_info.py:_save_pip():68] Saving pip packages done
+2024-03-06 16:26:34,038 DEBUG   HandlerThread:2432 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-03-06 16:26:34,049 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:34,371 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\requirements.txt
+2024-03-06 16:26:34,372 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\conda-environment.yaml
+2024-03-06 16:26:36,085 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:38,132 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:40,165 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:40,952 DEBUG   HandlerThread:2432 [system_info.py:_save_conda():87] Saving conda packages done
+2024-03-06 16:26:40,954 INFO    HandlerThread:2432 [system_monitor.py:probe():216] Finished publishing system info
+2024-03-06 16:26:40,976 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:26:40,976 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-06 16:26:40,976 DEBUG   SenderThread:2432 [sender.py:send():380] send: files
+2024-03-06 16:26:40,976 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-03-06 16:26:40,987 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-06 16:26:40,987 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: stop_status
+2024-03-06 16:26:40,989 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:26:41,433 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\conda-environment.yaml
+2024-03-06 16:26:41,434 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-metadata.json
+2024-03-06 16:26:41,957 DEBUG   SenderThread:2432 [sender.py:send():380] send: telemetry
+2024-03-06 16:26:42,204 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:42,305 INFO    wandb-upload_0:2432 [upload_job.py:push():131] Uploaded file C:\Users\lenovo\AppData\Local\Temp\tmpmacx_tejwandb\bghku58n-wandb-metadata.json
+2024-03-06 16:26:42,445 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:26:42,974 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:26:44,243 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:44,469 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:26:46,302 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:48,018 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:26:48,345 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:48,473 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:26:48,475 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:26:48,475 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:26:48,487 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:26:48,520 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:26:50,382 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:50,414 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:26:50,415 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:26:50,416 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:26:50,416 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:26:50,417 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:26:50,417 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:26:50,418 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:26:50,419 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:26:50,537 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:26:50,538 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:26:52,431 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:52,544 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:26:53,436 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:26:54,481 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:54,692 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:26:54,693 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:26:54,693 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:26:54,695 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:26:55,572 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:26:55,994 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:26:55,994 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-06 16:26:55,995 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: stop_status
+2024-03-06 16:26:56,518 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:56,585 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:26:56,719 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:26:56,720 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:26:56,721 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:26:56,721 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:26:56,723 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:26:56,723 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:26:56,723 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:26:56,725 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:26:57,588 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:26:58,558 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:26:58,602 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:26:58,728 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:00,586 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:00,991 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:00,992 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:00,992 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:00,992 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:01,638 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:02,640 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:02,642 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:02,960 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:02,962 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:02,962 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:02,962 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:02,963 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:02,963 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:02,964 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:02,964 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:03,647 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:03,979 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:04,670 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\config.yaml
+2024-03-06 16:27:04,670 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:04,736 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:06,766 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:07,280 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:07,281 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:07,281 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:07,282 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:07,714 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:08,743 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:08,790 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:09,208 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:09,208 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:09,209 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:09,210 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:09,210 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:09,211 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:09,211 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:09,212 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:09,759 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:10,227 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:10,783 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:10,815 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:10,996 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-06 16:27:10,996 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: stop_status
+2024-03-06 16:27:11,010 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:27:12,846 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:13,543 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:13,544 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:13,544 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:13,545 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:13,841 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:14,866 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:14,886 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:15,481 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:15,481 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:15,482 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:15,483 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:15,484 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:15,485 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:15,485 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:15,485 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:15,486 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:15,879 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:16,899 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:16,920 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:18,963 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:19,790 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:19,791 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:19,791 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:19,792 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:19,960 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:20,804 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:21,001 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:21,013 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:21,730 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:21,731 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:21,732 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:21,732 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:21,733 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:21,734 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:21,734 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:21,735 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:22,015 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:23,047 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:23,056 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:25,112 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:26,010 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-06 16:27:26,011 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: stop_status
+2024-03-06 16:27:26,021 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:26,026 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:27:26,483 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:26,483 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:26,483 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:26,485 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:27,139 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:27,161 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:27,891 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:27,892 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:27,892 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:27,893 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:27,894 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:27,894 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:27,895 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:27,895 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:28,149 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:29,176 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:29,193 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:31,251 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:31,925 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:32,149 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:32,150 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:32,150 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:32,151 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:32,238 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:33,285 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:34,019 DEBUG   SystemMonitor:2432 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-03-06 16:27:34,021 DEBUG   SenderThread:2432 [sender.py:send():380] send: stats
+2024-03-06 16:27:34,085 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:34,085 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:34,086 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:34,087 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:34,088 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:34,088 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:34,088 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:34,089 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:34,270 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:34,270 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:35,375 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:36,333 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:37,110 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:37,407 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:38,442 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:38,443 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:38,443 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:38,444 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:39,396 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:39,448 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:40,392 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:40,393 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:40,393 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:40,394 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:40,395 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:40,395 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:40,396 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:40,396 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:40,398 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:40,399 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:41,025 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-06 16:27:41,025 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: stop_status
+2024-03-06 16:27:41,040 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:27:41,486 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:42,437 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:42,514 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:43,510 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:44,602 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:44,603 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:44,603 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:44,604 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:45,530 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:45,551 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:46,499 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:46,500 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:46,500 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:46,501 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:46,502 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:46,502 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:46,503 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:46,504 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:46,539 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:46,540 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:47,589 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:48,506 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:48,586 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:49,642 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:50,735 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:50,736 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:50,736 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:50,738 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:51,649 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:51,665 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:52,599 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:52,600 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:52,601 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:52,602 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:52,603 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:52,603 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:52,604 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:52,604 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:52,656 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:52,656 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:53,614 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:53,708 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:54,712 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:55,761 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:56,034 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-06 16:27:56,034 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: stop_status
+2024-03-06 16:27:56,049 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:27:56,867 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:56,867 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:56,868 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:56,868 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:57,794 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:57,820 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:27:58,784 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:27:58,785 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:58,786 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:27:58,787 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:58,787 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:58,788 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:58,789 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:27:58,789 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:27:58,790 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:27:58,803 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:27:58,803 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:27:59,859 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:00,848 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:01,900 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:03,030 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:03,031 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:03,031 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:03,032 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:03,934 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:03,947 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:04,024 DEBUG   SenderThread:2432 [sender.py:send():380] send: stats
+2024-03-06 16:28:04,025 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:04,937 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:04,948 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:04,948 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:04,949 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:04,950 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:04,950 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:04,951 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:04,951 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:04,952 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:05,979 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:06,048 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:06,990 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:08,085 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:09,230 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:09,230 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:09,231 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:09,231 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:09,232 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:10,060 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:10,113 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:11,048 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-06 16:28:11,048 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: stop_status
+2024-03-06 16:28:11,063 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:28:11,065 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:11,265 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:11,266 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:11,431 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:11,431 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:11,432 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:11,433 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:11,433 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:11,434 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:12,111 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:12,138 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:13,124 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:14,180 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:14,460 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:15,750 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:15,751 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:15,752 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:15,753 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:16,195 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:16,219 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:17,200 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:17,629 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:17,630 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:17,631 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:17,632 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:17,632 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:17,633 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:17,633 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:17,634 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:18,248 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:18,264 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:19,261 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:19,654 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:20,303 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:21,930 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:21,931 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:21,931 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:21,932 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:22,338 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:22,358 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:23,345 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:23,884 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:23,885 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:23,886 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:23,887 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:23,887 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:23,888 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:23,888 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:23,889 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:24,387 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:24,403 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:24,900 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:25,403 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:26,057 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-06 16:28:26,057 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: stop_status
+2024-03-06 16:28:26,072 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:28:26,448 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:28,193 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:28,194 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:28,194 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:28,196 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:28,470 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:28,470 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:28,496 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:30,118 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:30,118 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:30,119 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:30,120 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:30,121 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:30,122 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:30,122 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:30,122 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:30,123 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:30,519 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:30,519 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:30,543 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:32,574 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:34,034 DEBUG   SenderThread:2432 [sender.py:send():380] send: stats
+2024-03-06 16:28:34,435 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:34,435 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:34,436 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:34,437 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:34,605 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:34,633 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:35,437 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:36,527 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:36,528 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:36,528 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:36,529 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:36,530 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:36,531 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:36,531 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:36,532 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:36,632 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:36,633 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:36,708 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:38,673 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:38,734 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:40,556 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:40,766 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:40,907 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:40,908 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:40,908 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:40,909 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:41,058 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-06 16:28:41,058 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: stop_status
+2024-03-06 16:28:41,089 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:28:41,728 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:42,769 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:42,806 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:42,806 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:42,807 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:42,808 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:42,809 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:42,809 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:42,810 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:42,810 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:42,811 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:43,782 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:44,809 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:44,838 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:45,829 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:46,864 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:47,221 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:47,222 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:47,222 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:47,223 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:47,857 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:48,880 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:48,904 ERROR   gpu       :2432 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-06 16:28:49,159 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:49,160 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-06 16:28:49,161 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:49,162 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:49,162 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:49,163 DEBUG   SenderThread:2432 [sender.py:send():380] send: history
+2024-03-06 16:28:49,163 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: summary_record
+2024-03-06 16:28:49,163 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:49,328 DEBUG   SenderThread:2432 [sender.py:send():380] send: exit
+2024-03-06 16:28:49,328 INFO    SenderThread:2432 [sender.py:send_exit():585] handling exit code: 0
+2024-03-06 16:28:49,328 INFO    SenderThread:2432 [sender.py:send_exit():587] handling runtime: 135
+2024-03-06 16:28:49,329 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:49,329 INFO    SenderThread:2432 [sender.py:send_exit():593] send defer
+2024-03-06 16:28:49,329 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:49,329 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 0
+2024-03-06 16:28:49,329 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:49,329 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-06 16:28:49,329 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 1
+2024-03-06 16:28:49,329 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:49,329 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 1
+2024-03-06 16:28:49,329 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:49,329 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-06 16:28:49,329 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 2
+2024-03-06 16:28:49,330 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:49,330 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 2
+2024-03-06 16:28:49,330 INFO    HandlerThread:2432 [system_monitor.py:finish():190] Stopping system monitor
+2024-03-06 16:28:49,336 INFO    HandlerThread:2432 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-06 16:28:49,337 DEBUG   SystemMonitor:2432 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-03-06 16:28:49,337 INFO    HandlerThread:2432 [interfaces.py:finish():202] Joined disk monitor
+2024-03-06 16:28:49,337 DEBUG   SystemMonitor:2432 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-03-06 16:28:49,373 INFO    HandlerThread:2432 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-06 16:28:49,373 INFO    HandlerThread:2432 [interfaces.py:finish():202] Joined memory monitor
+2024-03-06 16:28:49,373 INFO    HandlerThread:2432 [interfaces.py:finish():202] Joined network monitor
+2024-03-06 16:28:49,374 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:49,374 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-06 16:28:49,374 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 3
+2024-03-06 16:28:49,374 DEBUG   SenderThread:2432 [sender.py:send():380] send: stats
+2024-03-06 16:28:49,374 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:49,375 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 3
+2024-03-06 16:28:49,375 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:49,375 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-06 16:28:49,375 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 4
+2024-03-06 16:28:49,375 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:49,375 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 4
+2024-03-06 16:28:49,375 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:49,375 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-06 16:28:49,375 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 5
+2024-03-06 16:28:49,376 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:49,376 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 5
+2024-03-06 16:28:49,377 DEBUG   SenderThread:2432 [sender.py:send():380] send: summary
+2024-03-06 16:28:49,377 INFO    SenderThread:2432 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-06 16:28:49,378 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:49,378 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-06 16:28:49,378 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 6
+2024-03-06 16:28:49,378 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:49,378 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 6
+2024-03-06 16:28:49,378 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:49,378 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-06 16:28:49,378 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 7
+2024-03-06 16:28:49,378 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: status_report
+2024-03-06 16:28:49,378 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:49,378 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 7
+2024-03-06 16:28:49,379 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:49,379 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-06 16:28:49,897 INFO    Thread-12 :2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:50,334 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-06 16:28:50,553 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 8
+2024-03-06 16:28:50,554 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: poll_exit
+2024-03-06 16:28:50,554 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:50,554 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 8
+2024-03-06 16:28:50,555 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:50,555 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-06 16:28:50,555 INFO    SenderThread:2432 [job_builder.py:build():281] Attempting to build job artifact
+2024-03-06 16:28:50,556 INFO    SenderThread:2432 [job_builder.py:_get_source_type():404] no source found
+2024-03-06 16:28:50,556 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 9
+2024-03-06 16:28:50,556 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:50,556 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 9
+2024-03-06 16:28:50,556 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:50,556 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-06 16:28:50,556 INFO    SenderThread:2432 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-06 16:28:50,900 INFO    SenderThread:2432 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:50,901 INFO    SenderThread:2432 [dir_watcher.py:finish():388] scan: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files
+2024-03-06 16:28:50,902 INFO    SenderThread:2432 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\conda-environment.yaml conda-environment.yaml
+2024-03-06 16:28:50,903 INFO    SenderThread:2432 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\config.yaml config.yaml
+2024-03-06 16:28:50,906 INFO    SenderThread:2432 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log output.log
+2024-03-06 16:28:50,908 INFO    SenderThread:2432 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\requirements.txt requirements.txt
+2024-03-06 16:28:50,910 INFO    SenderThread:2432 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-metadata.json wandb-metadata.json
+2024-03-06 16:28:50,911 INFO    SenderThread:2432 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json wandb-summary.json
+2024-03-06 16:28:50,913 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 10
+2024-03-06 16:28:50,913 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:50,914 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 10
+2024-03-06 16:28:50,916 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:50,916 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-06 16:28:50,916 INFO    SenderThread:2432 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-06 16:28:51,336 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-06 16:28:51,337 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: poll_exit
+2024-03-06 16:28:51,631 INFO    wandb-upload_0:2432 [upload_job.py:push():131] Uploaded file E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\conda-environment.yaml
+2024-03-06 16:28:51,858 INFO    wandb-upload_1:2432 [upload_job.py:push():131] Uploaded file E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\config.yaml
+2024-03-06 16:28:52,076 INFO    wandb-upload_4:2432 [upload_job.py:push():131] Uploaded file E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\wandb-summary.json
+2024-03-06 16:28:52,310 INFO    wandb-upload_3:2432 [upload_job.py:push():131] Uploaded file E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\requirements.txt
+2024-03-06 16:28:52,310 INFO    wandb-upload_2:2432 [upload_job.py:push():131] Uploaded file E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\files\output.log
+2024-03-06 16:28:52,348 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-06 16:28:52,349 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: poll_exit
+2024-03-06 16:28:52,519 INFO    Thread-11 (_thread_body):2432 [sender.py:transition_state():613] send defer: 11
+2024-03-06 16:28:52,519 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:52,519 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 11
+2024-03-06 16:28:52,520 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:52,520 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-06 16:28:52,520 INFO    SenderThread:2432 [file_pusher.py:join():181] waiting for file pusher
+2024-03-06 16:28:52,520 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 12
+2024-03-06 16:28:52,520 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:52,520 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 12
+2024-03-06 16:28:52,520 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:52,520 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-06 16:28:52,520 INFO    SenderThread:2432 [file_stream.py:finish():595] file stream finish called
+2024-03-06 16:28:53,353 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-06 16:28:53,758 INFO    SenderThread:2432 [file_stream.py:finish():599] file stream finish is done
+2024-03-06 16:28:53,758 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 13
+2024-03-06 16:28:53,759 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: poll_exit
+2024-03-06 16:28:53,759 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:53,759 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 13
+2024-03-06 16:28:53,759 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:53,759 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-06 16:28:53,759 INFO    SenderThread:2432 [sender.py:transition_state():613] send defer: 14
+2024-03-06 16:28:53,760 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: defer
+2024-03-06 16:28:53,760 DEBUG   SenderThread:2432 [sender.py:send():380] send: final
+2024-03-06 16:28:53,760 INFO    HandlerThread:2432 [handler.py:handle_request_defer():170] handle defer: 14
+2024-03-06 16:28:53,760 DEBUG   SenderThread:2432 [sender.py:send():380] send: footer
+2024-03-06 16:28:53,760 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: defer
+2024-03-06 16:28:53,760 INFO    SenderThread:2432 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-06 16:28:53,761 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-06 16:28:53,761 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-06 16:28:53,761 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: server_info
+2024-03-06 16:28:53,762 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: poll_exit
+2024-03-06 16:28:53,762 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: get_summary
+2024-03-06 16:28:53,762 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: poll_exit
+2024-03-06 16:28:53,762 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: sampled_history
+2024-03-06 16:28:53,762 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: server_info
+2024-03-06 16:28:53,764 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-06 16:28:53,766 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: job_info
+2024-03-06 16:28:54,190 DEBUG   SenderThread:2432 [sender.py:send_request():407] send_request: job_info
+2024-03-06 16:28:54,190 INFO    MainThread:2432 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2024-03-06 16:28:54,190 INFO    MainThread:2432 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2024-03-06 16:28:54,191 INFO    MainThread:2432 [wandb_run.py:_footer_sync_info():3513] logging synced files
+2024-03-06 16:28:54,191 DEBUG   HandlerThread:2432 [handler.py:handle_request():144] handle_request: shutdown
+2024-03-06 16:28:54,191 INFO    HandlerThread:2432 [handler.py:finish():844] shutting down handler
+2024-03-06 16:28:54,780 INFO    WriterThread:2432 [datastore.py:close():294] close: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240306_162632-3ijml2bf\run-3ijml2bf.wandb
+2024-03-06 16:28:55,205 INFO    SenderThread:2432 [sender.py:finish():1534] shutting down sender
+2024-03-06 16:28:55,205 INFO    SenderThread:2432 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-06 16:28:55,205 INFO    SenderThread:2432 [file_pusher.py:join():181] waiting for file pusher

@@ -1,0 +1,88 @@
+2024-03-04 10:19:46,623 INFO    StreamThr :1492 [internal.py:wandb_internal():86] W&B internal server running at pid: 1492, started at: 2024-03-04 10:19:46.622751
+2024-03-04 10:19:46,624 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: status
+2024-03-04 10:19:46,629 INFO    WriterThread:1492 [datastore.py:open_for_write():85] open: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240304_101946-6uo60etc\run-6uo60etc.wandb
+2024-03-04 10:19:46,631 DEBUG   SenderThread:1492 [sender.py:send():380] send: header
+2024-03-04 10:19:46,631 DEBUG   SenderThread:1492 [sender.py:send():380] send: run
+2024-03-04 10:19:51,663 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:19:56,699 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:01,745 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:06,794 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:11,854 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:16,908 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:21,964 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:27,000 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:32,033 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:37,093 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:42,138 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:47,187 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:48,630 INFO    SenderThread:1492 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "E:\anaconda\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "E:\anaconda\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "E:\anaconda\lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\requests\adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "E:\anaconda\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\anaconda\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "E:\anaconda\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "E:\anaconda\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "E:\anaconda\lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "E:\anaconda\lib\site-packages\wandb\sdk\internal\internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "E:\anaconda\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "E:\anaconda\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "E:\anaconda\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "E:\anaconda\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "E:\anaconda\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\anaconda\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\anaconda\lib\site-packages\requests\adapters.py", line 502, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-03-04 10:20:52,240 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:20:57,272 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:21:02,321 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-04 10:21:05,352 DEBUG   HandlerThread:1492 [handler.py:handle_request():144] handle_request: shutdown
+2024-03-04 10:21:05,352 INFO    HandlerThread:1492 [handler.py:finish():844] shutting down handler
+2024-03-04 10:21:05,380 INFO    WriterThread:1492 [datastore.py:close():294] close: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240304_101946-6uo60etc\run-6uo60etc.wandb

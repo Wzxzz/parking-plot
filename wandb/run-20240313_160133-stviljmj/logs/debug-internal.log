@@ -1,0 +1,789 @@
+2024-03-13 16:01:33,706 INFO    StreamThr :29236 [internal.py:wandb_internal():86] W&B internal server running at pid: 29236, started at: 2024-03-13 16:01:33.706165
+2024-03-13 16:01:33,707 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status
+2024-03-13 16:01:33,713 INFO    WriterThread:29236 [datastore.py:open_for_write():85] open: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\run-stviljmj.wandb
+2024-03-13 16:01:33,714 DEBUG   SenderThread:29236 [sender.py:send():380] send: header
+2024-03-13 16:01:33,714 DEBUG   SenderThread:29236 [sender.py:send():380] send: run
+2024-03-13 16:01:34,876 INFO    SenderThread:29236 [dir_watcher.py:__init__():211] watching files in: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files
+2024-03-13 16:01:34,876 INFO    SenderThread:29236 [sender.py:_start_run_threads():1122] run started: stviljmj with start time 1710316893.706164
+2024-03-13 16:01:34,895 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: check_version
+2024-03-13 16:01:34,895 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: check_version
+2024-03-13 16:01:38,523 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: run_start
+2024-03-13 16:01:38,565 DEBUG   HandlerThread:29236 [system_info.py:__init__():32] System info init
+2024-03-13 16:01:38,565 DEBUG   HandlerThread:29236 [system_info.py:__init__():47] System info init done
+2024-03-13 16:01:38,565 INFO    HandlerThread:29236 [system_monitor.py:start():181] Starting system monitor
+2024-03-13 16:01:38,566 INFO    SystemMonitor:29236 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-03-13 16:01:38,566 INFO    HandlerThread:29236 [system_monitor.py:probe():201] Collecting system info
+2024-03-13 16:01:38,577 INFO    SystemMonitor:29236 [interfaces.py:start():190] Started cpu monitoring
+2024-03-13 16:01:38,577 INFO    SystemMonitor:29236 [interfaces.py:start():190] Started disk monitoring
+2024-03-13 16:01:38,578 INFO    SystemMonitor:29236 [interfaces.py:start():190] Started gpu monitoring
+2024-03-13 16:01:38,579 INFO    SystemMonitor:29236 [interfaces.py:start():190] Started memory monitoring
+2024-03-13 16:01:38,592 INFO    SystemMonitor:29236 [interfaces.py:start():190] Started network monitoring
+2024-03-13 16:01:38,615 DEBUG   HandlerThread:29236 [system_info.py:probe():196] Probing system
+2024-03-13 16:01:38,615 DEBUG   HandlerThread:29236 [system_info.py:probe():244] Probing system done
+2024-03-13 16:01:38,615 DEBUG   HandlerThread:29236 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.10.9', 'heartbeatAt': '2024-03-13T08:01:38.615244', 'startedAt': '2024-03-13T08:01:33.692162', 'docker': None, 'cuda': None, 'args': ('--task=P', '--weather=mix'), 'state': 'running', 'program': 'E:\\自动驾驶\\车位检测\\parking-space-Identification-in-different-weather-main\\train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'LAPTOP-QIVT4NMT', 'username': 'lenovo', 'executable': 'E:\\anaconda\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3201.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 3201.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'/': {'total': 465.74511337280273, 'used': 176.02560806274414}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.855525970458984}}
+2024-03-13 16:01:38,615 INFO    HandlerThread:29236 [system_monitor.py:probe():211] Finished collecting system info
+2024-03-13 16:01:38,615 INFO    HandlerThread:29236 [system_monitor.py:probe():214] Publishing system info
+2024-03-13 16:01:38,615 DEBUG   HandlerThread:29236 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-03-13 16:01:38,616 DEBUG   HandlerThread:29236 [system_info.py:_save_pip():68] Saving pip packages done
+2024-03-13 16:01:38,616 DEBUG   HandlerThread:29236 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-03-13 16:01:38,627 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:38,909 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\conda-environment.yaml
+2024-03-13 16:01:38,909 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\requirements.txt
+2024-03-13 16:01:40,658 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:42,688 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:44,722 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:45,477 DEBUG   HandlerThread:29236 [system_info.py:_save_conda():87] Saving conda packages done
+2024-03-13 16:01:45,478 INFO    HandlerThread:29236 [system_monitor.py:probe():216] Finished publishing system info
+2024-03-13 16:01:45,497 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:01:45,498 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-13 16:01:45,498 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:01:45,498 DEBUG   SenderThread:29236 [sender.py:send():380] send: files
+2024-03-13 16:01:45,498 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-03-13 16:01:45,510 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-13 16:01:45,510 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: stop_status
+2024-03-13 16:01:45,512 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-13 16:01:45,945 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\conda-environment.yaml
+2024-03-13 16:01:45,946 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-metadata.json
+2024-03-13 16:01:46,295 DEBUG   SenderThread:29236 [sender.py:send():380] send: telemetry
+2024-03-13 16:01:46,759 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:46,961 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:01:48,789 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:48,965 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:01:50,338 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:01:50,819 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:51,147 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:01:51,149 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:01:51,149 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:01:51,150 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:01:51,981 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_created():271] file/dir created: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:01:52,857 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:52,987 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:01:52,988 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:01:52,989 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:01:52,989 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:01:52,990 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:01:52,990 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:01:52,990 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:01:52,991 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:01:52,996 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:01:52,997 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:01:54,883 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:55,026 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:01:55,574 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:01:55,574 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:01:55,575 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:01:55,575 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:01:55,575 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:01:56,028 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:01:56,920 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:57,032 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:01:57,439 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:01:57,439 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:01:57,439 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:01:57,440 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:01:57,441 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:01:57,441 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:01:57,442 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:01:57,442 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:01:58,043 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:01:58,080 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A637E20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:01:58,080 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1319'}
+2024-03-13 16:01:58,080 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:01:58,956 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:01:59,048 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:00,024 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:00,025 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:00,025 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:00,026 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:00,051 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:00,527 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-13 16:02:00,527 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-13 16:02:00,527 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: stop_status
+2024-03-13 16:02:00,892 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:00,985 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:01,064 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:01,911 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:01,911 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:01,912 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:01,913 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:01,914 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:01,914 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:01,914 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:01,915 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:02,071 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:03,020 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:03,087 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:04,517 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:04,518 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:04,518 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:04,519 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:05,054 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:05,117 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:06,378 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:06,378 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:06,379 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:06,716 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:06,716 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:06,717 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:06,718 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:06,718 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:06,719 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:07,083 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:07,131 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:07,132 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:07,132 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\config.yaml
+2024-03-13 16:02:08,950 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:08,951 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:08,951 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:08,952 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:09,151 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:09,152 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:09,171 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:10,823 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:10,824 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:10,824 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:10,825 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:10,826 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:10,826 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:10,826 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:10,827 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:11,171 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:11,172 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:11,202 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:11,421 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C1240>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:02:11,421 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1319'}
+2024-03-13 16:02:11,421 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:02:11,839 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:13,180 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:13,231 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:13,410 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:13,411 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:13,411 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:13,411 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:14,187 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:15,218 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:15,254 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:15,308 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:15,308 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:15,309 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:15,310 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:15,311 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:15,311 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:15,311 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:15,312 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:15,524 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-13 16:02:15,524 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: stop_status
+2024-03-13 16:02:15,539 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-13 16:02:16,227 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:16,912 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:17,264 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:17,285 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:17,887 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:17,888 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:17,888 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:17,889 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:18,279 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:19,308 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:19,328 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:19,695 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:19,695 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:19,696 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:19,697 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:19,697 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:19,698 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:19,698 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:19,699 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:20,311 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:21,345 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:21,367 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:22,277 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:22,277 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:22,278 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:22,278 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:22,279 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:22,359 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:23,399 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:24,072 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:24,073 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:24,073 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:24,074 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:24,075 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:24,075 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:24,076 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:24,076 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:24,392 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:25,414 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:25,429 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:25,999 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C0280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:02:25,999 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1319'}
+2024-03-13 16:02:25,999 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:02:25,999 INFO    wandb-upload_0:29236 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "E:\anaconda\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "E:\anaconda\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "E:\anaconda\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "E:\anaconda\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002915A6C0280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\requests\adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "E:\anaconda\lib\site-packages\urllib3\connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "E:\anaconda\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C0280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2549, in upload_file
+    response = self._upload_file_session.put(
+  File "E:\anaconda\lib\site-packages\requests\sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "E:\anaconda\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\anaconda\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\anaconda\lib\site-packages\requests\adapters.py", line 520, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C0280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "E:\anaconda\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2580, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "E:\anaconda\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2549, in upload_file
+    response = self._upload_file_session.put(
+  File "E:\anaconda\lib\site-packages\requests\sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "E:\anaconda\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\anaconda\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\anaconda\lib\site-packages\requests\adapters.py", line 520, in send
+    raise ConnectionError(e, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2024-03-13 16:02:26,664 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:26,664 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:26,665 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:26,665 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:27,453 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:27,454 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:27,470 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:27,672 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:28,468 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:28,493 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:28,494 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:28,495 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:28,495 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:28,496 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:28,496 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:28,496 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:28,497 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:29,496 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:29,512 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:30,505 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:30,537 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-13 16:02:30,537 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: stop_status
+2024-03-13 16:02:30,552 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-13 16:02:31,085 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:31,086 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:31,086 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:31,087 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:31,531 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:31,552 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:32,533 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:32,917 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:32,917 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:32,917 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:32,918 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:32,919 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:32,919 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:32,920 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:32,920 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:32,921 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:33,571 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:33,589 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:34,577 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:35,489 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:35,490 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:35,490 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:35,491 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:35,608 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:35,626 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:36,613 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:37,379 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:37,380 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:37,380 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:37,381 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:37,381 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:37,382 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:37,382 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:37,383 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:37,652 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:37,672 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:38,398 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:38,620 DEBUG   SystemMonitor:29236 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-03-13 16:02:38,622 DEBUG   SenderThread:29236 [sender.py:send():380] send: stats
+2024-03-13 16:02:38,653 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:39,754 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:39,972 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:39,973 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:39,973 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:39,974 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:40,693 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:40,693 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:41,780 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:41,844 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:41,845 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:41,846 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:41,846 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:41,847 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:41,848 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:41,848 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:41,848 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:42,733 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:42,733 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:43,099 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C0730>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:02:43,100 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1319'}
+2024-03-13 16:02:43,100 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:02:43,800 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:43,862 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:44,449 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:44,450 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:44,450 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:44,451 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:44,771 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:45,549 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-13 16:02:45,549 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: stop_status
+2024-03-13 16:02:45,564 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-13 16:02:45,834 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:46,325 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:46,326 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:46,326 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:46,327 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:46,328 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:46,328 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:46,328 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:46,329 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:46,817 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:46,818 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:47,876 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:48,863 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:48,925 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:48,925 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:48,926 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:48,926 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:48,927 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:49,890 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:49,908 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:50,802 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:50,802 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:50,803 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:50,804 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:50,805 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:50,805 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:50,805 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:50,806 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:50,895 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:50,895 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:51,941 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:52,931 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:53,408 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:53,409 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:53,409 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:53,410 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:53,962 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:53,978 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:54,425 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:54,967 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:55,305 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:55,306 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:55,306 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:55,307 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:55,307 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:55,308 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:55,308 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:55,309 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:55,997 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:56,017 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:57,003 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:57,886 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:57,887 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:57,887 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:57,888 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:58,030 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:02:58,053 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:02:59,039 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:02:59,698 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:02:59,698 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:59,698 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:02:59,699 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:59,700 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:59,701 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:02:59,701 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:02:59,701 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:02:59,702 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:00,072 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:03:00,093 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:03:00,560 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-13 16:03:00,560 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: stop_status
+2024-03-13 16:03:00,574 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-13 16:03:01,079 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:03:02,136 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:03:02,305 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:04,173 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:03:04,175 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:04,176 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:04,716 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C38B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:04,716 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1319'}
+2024-03-13 16:03:04,716 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:05,178 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:05,178 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:05,178 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:05,179 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:05,180 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:05,180 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:05,181 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:05,181 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:05,181 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:05,182 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:06,193 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:03:06,215 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:03:06,765 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:06,766 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:06,766 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:06,767 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:07,195 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:03:07,196 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:03:08,250 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:03:08,606 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:08,607 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:08,608 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:08,608 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:08,609 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:08,609 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:08,610 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:08,610 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:08,626 DEBUG   SenderThread:29236 [sender.py:send():380] send: stats
+2024-03-13 16:03:09,233 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:03:09,234 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:03:10,333 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:03:10,648 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:11,198 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:11,199 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:11,199 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:11,200 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:11,267 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:03:11,268 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:03:12,363 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:03:13,063 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:13,064 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:13,065 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:13,065 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:13,066 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:13,067 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:13,067 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:13,067 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:13,306 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:03:13,307 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:03:14,391 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:03:15,338 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:03:15,561 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-13 16:03:15,561 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: stop_status
+2024-03-13 16:03:15,576 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-13 16:03:15,663 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:15,899 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:15,899 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:15,900 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:15,902 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:16,372 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:03:16,420 ERROR   gpu       :29236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-13 16:03:17,377 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:03:17,542 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:17,542 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-13 16:03:17,543 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:17,543 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:17,544 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:17,545 DEBUG   SenderThread:29236 [sender.py:send():380] send: history
+2024-03-13 16:03:17,545 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: summary_record
+2024-03-13 16:03:17,545 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:17,696 DEBUG   SenderThread:29236 [sender.py:send():380] send: exit
+2024-03-13 16:03:17,696 INFO    SenderThread:29236 [sender.py:send_exit():585] handling exit code: 0
+2024-03-13 16:03:17,697 INFO    SenderThread:29236 [sender.py:send_exit():587] handling runtime: 99
+2024-03-13 16:03:17,697 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:17,698 INFO    SenderThread:29236 [sender.py:send_exit():593] send defer
+2024-03-13 16:03:17,698 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:17,698 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 0
+2024-03-13 16:03:17,698 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:17,698 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-13 16:03:17,698 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 1
+2024-03-13 16:03:17,698 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:17,699 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 1
+2024-03-13 16:03:17,699 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:17,699 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-13 16:03:17,699 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 2
+2024-03-13 16:03:17,699 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:17,699 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 2
+2024-03-13 16:03:17,699 INFO    HandlerThread:29236 [system_monitor.py:finish():190] Stopping system monitor
+2024-03-13 16:03:17,699 DEBUG   SystemMonitor:29236 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-03-13 16:03:17,706 DEBUG   SystemMonitor:29236 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-03-13 16:03:17,706 INFO    HandlerThread:29236 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-13 16:03:17,707 INFO    HandlerThread:29236 [interfaces.py:finish():202] Joined disk monitor
+2024-03-13 16:03:17,744 INFO    HandlerThread:29236 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-13 16:03:17,745 INFO    HandlerThread:29236 [interfaces.py:finish():202] Joined memory monitor
+2024-03-13 16:03:17,745 INFO    HandlerThread:29236 [interfaces.py:finish():202] Joined network monitor
+2024-03-13 16:03:17,746 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:17,746 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-13 16:03:17,746 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 3
+2024-03-13 16:03:17,746 DEBUG   SenderThread:29236 [sender.py:send():380] send: stats
+2024-03-13 16:03:17,746 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:17,747 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 3
+2024-03-13 16:03:17,747 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:17,747 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-13 16:03:17,747 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 4
+2024-03-13 16:03:17,747 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:17,747 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 4
+2024-03-13 16:03:17,747 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:17,747 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-13 16:03:17,747 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 5
+2024-03-13 16:03:17,748 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:17,748 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 5
+2024-03-13 16:03:17,748 DEBUG   SenderThread:29236 [sender.py:send():380] send: summary
+2024-03-13 16:03:17,749 INFO    SenderThread:29236 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-13 16:03:17,749 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:17,749 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-13 16:03:17,749 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 6
+2024-03-13 16:03:17,750 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:17,750 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 6
+2024-03-13 16:03:17,750 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:17,750 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-13 16:03:17,750 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 7
+2024-03-13 16:03:17,750 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:17,750 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:17,750 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 7
+2024-03-13 16:03:17,751 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:17,751 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-13 16:03:18,388 INFO    Thread-12 :29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json
+2024-03-13 16:03:18,654 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 8
+2024-03-13 16:03:18,655 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:18,655 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 8
+2024-03-13 16:03:18,655 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:18,655 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-13 16:03:18,655 INFO    SenderThread:29236 [job_builder.py:build():281] Attempting to build job artifact
+2024-03-13 16:03:18,656 INFO    SenderThread:29236 [job_builder.py:_get_source_type():404] no source found
+2024-03-13 16:03:18,656 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 9
+2024-03-13 16:03:18,656 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:18,656 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 9
+2024-03-13 16:03:18,656 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:18,656 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-13 16:03:18,656 INFO    SenderThread:29236 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-13 16:03:18,701 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:19,404 INFO    SenderThread:29236 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log
+2024-03-13 16:03:19,404 INFO    SenderThread:29236 [dir_watcher.py:finish():388] scan: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files
+2024-03-13 16:03:19,405 INFO    SenderThread:29236 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\conda-environment.yaml conda-environment.yaml
+2024-03-13 16:03:19,406 INFO    SenderThread:29236 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\config.yaml config.yaml
+2024-03-13 16:03:19,408 INFO    SenderThread:29236 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\output.log output.log
+2024-03-13 16:03:19,410 INFO    SenderThread:29236 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\requirements.txt requirements.txt
+2024-03-13 16:03:19,412 INFO    SenderThread:29236 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-metadata.json wandb-metadata.json
+2024-03-13 16:03:19,413 INFO    SenderThread:29236 [dir_watcher.py:finish():402] scan save: E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\wandb\run-20240313_160133-stviljmj\files\wandb-summary.json wandb-summary.json
+2024-03-13 16:03:19,414 INFO    SenderThread:29236 [sender.py:transition_state():613] send defer: 10
+2024-03-13 16:03:19,415 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:19,415 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: defer
+2024-03-13 16:03:19,415 INFO    HandlerThread:29236 [handler.py:handle_request_defer():170] handle defer: 10
+2024-03-13 16:03:19,417 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: defer
+2024-03-13 16:03:19,417 INFO    SenderThread:29236 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-13 16:03:19,417 INFO    SenderThread:29236 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-13 16:03:19,713 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:19,714 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:20,714 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:20,715 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:21,726 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:21,726 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:22,727 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:22,727 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:23,736 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:23,737 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:24,749 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:24,750 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:25,753 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:25,753 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:26,755 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:26,755 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:26,755 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:27,758 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:27,758 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:28,770 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:28,771 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:29,771 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:29,771 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:30,781 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:30,782 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:31,788 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:31,789 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:31,789 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:31,799 ERROR   wandb-upload_2:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/config.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dy71ZRU%2B1kYKkO3nWHczCDcnOg81r35M%2FQ13IG08uMDrCV8hE%2Beu2oExBAaXKUx%2F0bmAkZIYdcD0uGOlqhPrpIFnokDj5BhmqAIxT%2F1WOR1NtRL0HjFW%2Bcs7DOVgQ5GD71yhVpvkJDONYsXwus3P6DNRZHOC3W%2FqNqRnem8%2BACQ0puRBFZacWQS5MPKv2c%2BL7FnB%2FzgcYL4wJrggyzC3WR6O%2F3jvGe8y867wgV80FCMi5rT5r9zf278ttzndCHpaOBX3dDopOQjHkBO8ap4WrWm3mbwnyVSjE1FHoXj4HpM1QUpFuJ3t1MyNReTsuuWfKo4kONUxwGSB40Tkf4SDDg%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/config.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dy71ZRU%2B1kYKkO3nWHczCDcnOg81r35M%2FQ13IG08uMDrCV8hE%2Beu2oExBAaXKUx%2F0bmAkZIYdcD0uGOlqhPrpIFnokDj5BhmqAIxT%2F1WOR1NtRL0HjFW%2Bcs7DOVgQ5GD71yhVpvkJDONYsXwus3P6DNRZHOC3W%2FqNqRnem8%2BACQ0puRBFZacWQS5MPKv2c%2BL7FnB%2FzgcYL4wJrggyzC3WR6O%2F3jvGe8y867wgV80FCMi5rT5r9zf278ttzndCHpaOBX3dDopOQjHkBO8ap4WrWm3mbwnyVSjE1FHoXj4HpM1QUpFuJ3t1MyNReTsuuWfKo4kONUxwGSB40Tkf4SDDg%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C1450>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:31,799 ERROR   wandb-upload_2:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '456'}
+2024-03-13 16:03:31,799 ERROR   wandb-upload_2:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:31,815 ERROR   wandb-upload_1:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/conda-environment.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=EZRyeZryY%2BPQ9nN7twzWcRjqWsgUC9J3u68ZQdhZjATWzAFRTAX5m3utoHLmAh%2Fab0dsxyFplGc1X9HCZ762aEXnCL3pa9oyJ6dvGrIWmTnuLfcOsYndEVo2fhBPKbNg%2FdcAB1eFLU8La4BIG4V8ayx9RdktxPgb2B9KTjRwT6xhmW0gOvHkd6oZo%2BH0dKNh9Z85DYWsDlza6ONQetUIQDBrQ%2FmDllI8U4anALDlxW0l1qA%2FjWlIfnrmZeQgxGVdk%2B6ywOEOytKqpyjlo88RNePPlcxGErMP%2BRJqKPD%2BR7K9uFEuvKQOXNJ%2FpLiNDzfF59ZhD2vA6JtUOrTxeITW3w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/conda-environment.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=EZRyeZryY%2BPQ9nN7twzWcRjqWsgUC9J3u68ZQdhZjATWzAFRTAX5m3utoHLmAh%2Fab0dsxyFplGc1X9HCZ762aEXnCL3pa9oyJ6dvGrIWmTnuLfcOsYndEVo2fhBPKbNg%2FdcAB1eFLU8La4BIG4V8ayx9RdktxPgb2B9KTjRwT6xhmW0gOvHkd6oZo%2BH0dKNh9Z85DYWsDlza6ONQetUIQDBrQ%2FmDllI8U4anALDlxW0l1qA%2FjWlIfnrmZeQgxGVdk%2B6ywOEOytKqpyjlo88RNePPlcxGErMP%2BRJqKPD%2BR7K9uFEuvKQOXNJ%2FpLiNDzfF59ZhD2vA6JtUOrTxeITW3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C1630>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:31,816 ERROR   wandb-upload_1:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '9492'}
+2024-03-13 16:03:31,816 ERROR   wandb-upload_1:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:32,153 ERROR   wandb-upload_3:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/output.log?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ZiGYLkRHV%2BCVL19xFvS%2BhmIWGqOtOoCFMT5VmHuXgLXlt4GDv9Vvw5Wq%2BaiVkfy9xcHxOcArZK%2Bwcf9ikAq37xi3ll451XwyfkH8X3U9SeBLdWjsDrFT1LkGpeyPtrvvc1QunXof9EbGmbcQfVL79MW4GBfFIUMMog2nFet2ijKaYCLxi6Px%2B3jHq5clozYKmMqTcRuLn3zVkUmFRx2Bbak7IAiWAOWuFoY%2Fan1T2ZazDFo6fIYOPy1%2BcoZz5ALQ2riNQ7nD8ZHsxCoHFnWv1u9KJPwROLmbVz57zFS11bw3jZXKxarZ%2BSKtlhEK%2FF8Ju45wuwHgx5m8H4vC2ApWbA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/output.log?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ZiGYLkRHV%2BCVL19xFvS%2BhmIWGqOtOoCFMT5VmHuXgLXlt4GDv9Vvw5Wq%2BaiVkfy9xcHxOcArZK%2Bwcf9ikAq37xi3ll451XwyfkH8X3U9SeBLdWjsDrFT1LkGpeyPtrvvc1QunXof9EbGmbcQfVL79MW4GBfFIUMMog2nFet2ijKaYCLxi6Px%2B3jHq5clozYKmMqTcRuLn3zVkUmFRx2Bbak7IAiWAOWuFoY%2Fan1T2ZazDFo6fIYOPy1%2BcoZz5ALQ2riNQ7nD8ZHsxCoHFnWv1u9KJPwROLmbVz57zFS11bw3jZXKxarZ%2BSKtlhEK%2FF8Ju45wuwHgx5m8H4vC2ApWbA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A5E39D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:32,153 ERROR   wandb-upload_3:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1411'}
+2024-03-13 16:03:32,153 ERROR   wandb-upload_3:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:32,173 ERROR   wandb-upload_4:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/requirements.txt?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Jjl5OAKZn9Baj7PqTOpcm3GRnsap3RuWlVmsXVp%2B%2Fll9Hm7mQWGsaf8hIVRltvMW0BsdOVA9d1DHvQVnqbwWIZdwWemtgr12UNXAkB1hClXzVSQoiGk9yngrFSZHCiXJ0%2F2OU%2B6ONupX%2FxNuMiTqta5r5%2Fn8fNjYh6jrCimMp0mL8oizxwAGUBuwXWsT%2BvzYYRmiHtyRoM%2FCbLY%2BNgVgXt%2BBTnktwmftugOybloR0nDG5KKLeOtdJE3kT%2B%2BY%2FgFy%2Bxs1Eh65FTgpefL2eXRpQLwjJT9V38MIVyzdHZum6jbWPnKQReJ9OCo6ymKoyAjNPXtMz84rcv5KOuAx9wJFOA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/requirements.txt?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Jjl5OAKZn9Baj7PqTOpcm3GRnsap3RuWlVmsXVp%2B%2Fll9Hm7mQWGsaf8hIVRltvMW0BsdOVA9d1DHvQVnqbwWIZdwWemtgr12UNXAkB1hClXzVSQoiGk9yngrFSZHCiXJ0%2F2OU%2B6ONupX%2FxNuMiTqta5r5%2Fn8fNjYh6jrCimMp0mL8oizxwAGUBuwXWsT%2BvzYYRmiHtyRoM%2FCbLY%2BNgVgXt%2BBTnktwmftugOybloR0nDG5KKLeOtdJE3kT%2B%2BY%2FgFy%2Bxs1Eh65FTgpefL2eXRpQLwjJT9V38MIVyzdHZum6jbWPnKQReJ9OCo6ymKoyAjNPXtMz84rcv5KOuAx9wJFOA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C18D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:32,173 ERROR   wandb-upload_4:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '3463'}
+2024-03-13 16:03:32,173 ERROR   wandb-upload_4:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:32,798 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:32,798 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:33,392 ERROR   wandb-upload_5:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-summary.json?Expires=1710403403&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=HCHHS8qBiQdpYGENele1dr0ZRt%2BbviIQjNxvsfim9aUf82uVsDA8T2rM68GboupSbbpyVOQI0JbokpbDK1QJYjAFtm%2FanW7B7DGEsPiZj8B4W24rLKrpgD0zXssMmP43CE1ZdvO4TeioLrUBp1Yt8t52mkpApBrwDo6hQ%2FX0VScdc6rS6zJCUmivdVf7Q82jwvh1Bura0J7ETAsdEsm1fakNPRgpPuUsbFZiiadZZAGaoVkTRUzOWrYs2FMz4OWPA7HTU6ORQeCoje4gxgSJeVB1FFdJ9pjMA8NsN%2Bwbv6bNuzRCmUU7O1DsHCYbMHCcXqNOz75e%2FwQKp5Aidv90zA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-summary.json?Expires=1710403403&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=HCHHS8qBiQdpYGENele1dr0ZRt%2BbviIQjNxvsfim9aUf82uVsDA8T2rM68GboupSbbpyVOQI0JbokpbDK1QJYjAFtm%2FanW7B7DGEsPiZj8B4W24rLKrpgD0zXssMmP43CE1ZdvO4TeioLrUBp1Yt8t52mkpApBrwDo6hQ%2FX0VScdc6rS6zJCUmivdVf7Q82jwvh1Bura0J7ETAsdEsm1fakNPRgpPuUsbFZiiadZZAGaoVkTRUzOWrYs2FMz4OWPA7HTU6ORQeCoje4gxgSJeVB1FFdJ9pjMA8NsN%2Bwbv6bNuzRCmUU7O1DsHCYbMHCcXqNOz75e%2FwQKp5Aidv90zA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C2B30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:33,392 ERROR   wandb-upload_5:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '206'}
+2024-03-13 16:03:33,392 ERROR   wandb-upload_5:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:33,799 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:33,800 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:34,799 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:34,800 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:35,815 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:35,816 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:36,059 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-metadata.json?Expires=1710403308&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=fRkc%2Bba64j%2BoqTVy4cW5sb4mbWe%2BdHdoVZYVqLjZXFh97YVvd4m%2B%2B3rOHmdnMPw6aDN1r1G%2FotbJk7iUex9yrtQkgL6NrBnoqYboCeLhYDXSwBewebv66ewtH5YrSMylGCIeeZLAjknNY9AJmklPc157zDM4T5zdJrWwfgnhcNMTvCmS%2BDkBJkL%2BhY0o%2BEAGaQu7H2jV%2FbVKn1nyVSlpiG%2FPAUfnrYx9Q6FMOsogB0I7F6N7dPPHb1EZxBmbZVDSdSTAWniWUCFYW83eoAbtPiquQg0jlG30fMR5M20IaMP7UrxtYCP8572JKGmLdD51u9%2B%2FK9l0YRfVQsBNS%2B3W3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A68AA40>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:36,059 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1319'}
+2024-03-13 16:03:36,059 ERROR   wandb-upload_0:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:36,825 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:36,826 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:36,826 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:37,838 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:37,839 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:38,841 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:38,841 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:39,854 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:39,855 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:40,865 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:40,866 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:41,878 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:41,878 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:41,879 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:42,890 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:42,890 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:43,901 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:43,902 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:44,911 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:44,912 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:45,140 ERROR   wandb-upload_2:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/config.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dy71ZRU%2B1kYKkO3nWHczCDcnOg81r35M%2FQ13IG08uMDrCV8hE%2Beu2oExBAaXKUx%2F0bmAkZIYdcD0uGOlqhPrpIFnokDj5BhmqAIxT%2F1WOR1NtRL0HjFW%2Bcs7DOVgQ5GD71yhVpvkJDONYsXwus3P6DNRZHOC3W%2FqNqRnem8%2BACQ0puRBFZacWQS5MPKv2c%2BL7FnB%2FzgcYL4wJrggyzC3WR6O%2F3jvGe8y867wgV80FCMi5rT5r9zf278ttzndCHpaOBX3dDopOQjHkBO8ap4WrWm3mbwnyVSjE1FHoXj4HpM1QUpFuJ3t1MyNReTsuuWfKo4kONUxwGSB40Tkf4SDDg%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/config.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dy71ZRU%2B1kYKkO3nWHczCDcnOg81r35M%2FQ13IG08uMDrCV8hE%2Beu2oExBAaXKUx%2F0bmAkZIYdcD0uGOlqhPrpIFnokDj5BhmqAIxT%2F1WOR1NtRL0HjFW%2Bcs7DOVgQ5GD71yhVpvkJDONYsXwus3P6DNRZHOC3W%2FqNqRnem8%2BACQ0puRBFZacWQS5MPKv2c%2BL7FnB%2FzgcYL4wJrggyzC3WR6O%2F3jvGe8y867wgV80FCMi5rT5r9zf278ttzndCHpaOBX3dDopOQjHkBO8ap4WrWm3mbwnyVSjE1FHoXj4HpM1QUpFuJ3t1MyNReTsuuWfKo4kONUxwGSB40Tkf4SDDg%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A68A2C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:45,140 ERROR   wandb-upload_2:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '456'}
+2024-03-13 16:03:45,140 ERROR   wandb-upload_2:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:45,465 ERROR   wandb-upload_4:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/requirements.txt?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Jjl5OAKZn9Baj7PqTOpcm3GRnsap3RuWlVmsXVp%2B%2Fll9Hm7mQWGsaf8hIVRltvMW0BsdOVA9d1DHvQVnqbwWIZdwWemtgr12UNXAkB1hClXzVSQoiGk9yngrFSZHCiXJ0%2F2OU%2B6ONupX%2FxNuMiTqta5r5%2Fn8fNjYh6jrCimMp0mL8oizxwAGUBuwXWsT%2BvzYYRmiHtyRoM%2FCbLY%2BNgVgXt%2BBTnktwmftugOybloR0nDG5KKLeOtdJE3kT%2B%2BY%2FgFy%2Bxs1Eh65FTgpefL2eXRpQLwjJT9V38MIVyzdHZum6jbWPnKQReJ9OCo6ymKoyAjNPXtMz84rcv5KOuAx9wJFOA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/requirements.txt?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Jjl5OAKZn9Baj7PqTOpcm3GRnsap3RuWlVmsXVp%2B%2Fll9Hm7mQWGsaf8hIVRltvMW0BsdOVA9d1DHvQVnqbwWIZdwWemtgr12UNXAkB1hClXzVSQoiGk9yngrFSZHCiXJ0%2F2OU%2B6ONupX%2FxNuMiTqta5r5%2Fn8fNjYh6jrCimMp0mL8oizxwAGUBuwXWsT%2BvzYYRmiHtyRoM%2FCbLY%2BNgVgXt%2BBTnktwmftugOybloR0nDG5KKLeOtdJE3kT%2B%2BY%2FgFy%2Bxs1Eh65FTgpefL2eXRpQLwjJT9V38MIVyzdHZum6jbWPnKQReJ9OCo6ymKoyAjNPXtMz84rcv5KOuAx9wJFOA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6897B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:45,465 ERROR   wandb-upload_4:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '3463'}
+2024-03-13 16:03:45,465 ERROR   wandb-upload_4:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:45,474 ERROR   wandb-upload_1:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/conda-environment.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=EZRyeZryY%2BPQ9nN7twzWcRjqWsgUC9J3u68ZQdhZjATWzAFRTAX5m3utoHLmAh%2Fab0dsxyFplGc1X9HCZ762aEXnCL3pa9oyJ6dvGrIWmTnuLfcOsYndEVo2fhBPKbNg%2FdcAB1eFLU8La4BIG4V8ayx9RdktxPgb2B9KTjRwT6xhmW0gOvHkd6oZo%2BH0dKNh9Z85DYWsDlza6ONQetUIQDBrQ%2FmDllI8U4anALDlxW0l1qA%2FjWlIfnrmZeQgxGVdk%2B6ywOEOytKqpyjlo88RNePPlcxGErMP%2BRJqKPD%2BR7K9uFEuvKQOXNJ%2FpLiNDzfF59ZhD2vA6JtUOrTxeITW3w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/conda-environment.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=EZRyeZryY%2BPQ9nN7twzWcRjqWsgUC9J3u68ZQdhZjATWzAFRTAX5m3utoHLmAh%2Fab0dsxyFplGc1X9HCZ762aEXnCL3pa9oyJ6dvGrIWmTnuLfcOsYndEVo2fhBPKbNg%2FdcAB1eFLU8La4BIG4V8ayx9RdktxPgb2B9KTjRwT6xhmW0gOvHkd6oZo%2BH0dKNh9Z85DYWsDlza6ONQetUIQDBrQ%2FmDllI8U4anALDlxW0l1qA%2FjWlIfnrmZeQgxGVdk%2B6ywOEOytKqpyjlo88RNePPlcxGErMP%2BRJqKPD%2BR7K9uFEuvKQOXNJ%2FpLiNDzfF59ZhD2vA6JtUOrTxeITW3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6899F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:45,474 ERROR   wandb-upload_1:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '9492'}
+2024-03-13 16:03:45,474 ERROR   wandb-upload_1:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:45,739 ERROR   wandb-upload_3:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/output.log?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ZiGYLkRHV%2BCVL19xFvS%2BhmIWGqOtOoCFMT5VmHuXgLXlt4GDv9Vvw5Wq%2BaiVkfy9xcHxOcArZK%2Bwcf9ikAq37xi3ll451XwyfkH8X3U9SeBLdWjsDrFT1LkGpeyPtrvvc1QunXof9EbGmbcQfVL79MW4GBfFIUMMog2nFet2ijKaYCLxi6Px%2B3jHq5clozYKmMqTcRuLn3zVkUmFRx2Bbak7IAiWAOWuFoY%2Fan1T2ZazDFo6fIYOPy1%2BcoZz5ALQ2riNQ7nD8ZHsxCoHFnWv1u9KJPwROLmbVz57zFS11bw3jZXKxarZ%2BSKtlhEK%2FF8Ju45wuwHgx5m8H4vC2ApWbA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/output.log?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ZiGYLkRHV%2BCVL19xFvS%2BhmIWGqOtOoCFMT5VmHuXgLXlt4GDv9Vvw5Wq%2BaiVkfy9xcHxOcArZK%2Bwcf9ikAq37xi3ll451XwyfkH8X3U9SeBLdWjsDrFT1LkGpeyPtrvvc1QunXof9EbGmbcQfVL79MW4GBfFIUMMog2nFet2ijKaYCLxi6Px%2B3jHq5clozYKmMqTcRuLn3zVkUmFRx2Bbak7IAiWAOWuFoY%2Fan1T2ZazDFo6fIYOPy1%2BcoZz5ALQ2riNQ7nD8ZHsxCoHFnWv1u9KJPwROLmbVz57zFS11bw3jZXKxarZ%2BSKtlhEK%2FF8Ju45wuwHgx5m8H4vC2ApWbA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000029157F44BB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:45,739 ERROR   wandb-upload_3:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1411'}
+2024-03-13 16:03:45,739 ERROR   wandb-upload_3:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:45,917 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:45,918 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:46,739 ERROR   wandb-upload_5:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-summary.json?Expires=1710403403&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=HCHHS8qBiQdpYGENele1dr0ZRt%2BbviIQjNxvsfim9aUf82uVsDA8T2rM68GboupSbbpyVOQI0JbokpbDK1QJYjAFtm%2FanW7B7DGEsPiZj8B4W24rLKrpgD0zXssMmP43CE1ZdvO4TeioLrUBp1Yt8t52mkpApBrwDo6hQ%2FX0VScdc6rS6zJCUmivdVf7Q82jwvh1Bura0J7ETAsdEsm1fakNPRgpPuUsbFZiiadZZAGaoVkTRUzOWrYs2FMz4OWPA7HTU6ORQeCoje4gxgSJeVB1FFdJ9pjMA8NsN%2Bwbv6bNuzRCmUU7O1DsHCYbMHCcXqNOz75e%2FwQKp5Aidv90zA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-summary.json?Expires=1710403403&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=HCHHS8qBiQdpYGENele1dr0ZRt%2BbviIQjNxvsfim9aUf82uVsDA8T2rM68GboupSbbpyVOQI0JbokpbDK1QJYjAFtm%2FanW7B7DGEsPiZj8B4W24rLKrpgD0zXssMmP43CE1ZdvO4TeioLrUBp1Yt8t52mkpApBrwDo6hQ%2FX0VScdc6rS6zJCUmivdVf7Q82jwvh1Bura0J7ETAsdEsm1fakNPRgpPuUsbFZiiadZZAGaoVkTRUzOWrYs2FMz4OWPA7HTU6ORQeCoje4gxgSJeVB1FFdJ9pjMA8NsN%2Bwbv6bNuzRCmUU7O1DsHCYbMHCcXqNOz75e%2FwQKp5Aidv90zA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C1840>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:03:46,739 ERROR   wandb-upload_5:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '206'}
+2024-03-13 16:03:46,739 ERROR   wandb-upload_5:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:03:46,932 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:46,932 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:46,933 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:47,947 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:47,948 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:48,956 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:48,956 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:49,960 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:49,961 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:50,964 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:50,965 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:51,970 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:51,971 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:51,971 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:52,978 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:52,979 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:53,982 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:53,982 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:54,986 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:54,987 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:55,990 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:55,990 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:56,992 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:56,992 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:03:56,993 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:58,005 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:58,005 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:03:59,011 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:03:59,012 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:00,012 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:00,012 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:00,365 ERROR   wandb-upload_4:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/requirements.txt?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Jjl5OAKZn9Baj7PqTOpcm3GRnsap3RuWlVmsXVp%2B%2Fll9Hm7mQWGsaf8hIVRltvMW0BsdOVA9d1DHvQVnqbwWIZdwWemtgr12UNXAkB1hClXzVSQoiGk9yngrFSZHCiXJ0%2F2OU%2B6ONupX%2FxNuMiTqta5r5%2Fn8fNjYh6jrCimMp0mL8oizxwAGUBuwXWsT%2BvzYYRmiHtyRoM%2FCbLY%2BNgVgXt%2BBTnktwmftugOybloR0nDG5KKLeOtdJE3kT%2B%2BY%2FgFy%2Bxs1Eh65FTgpefL2eXRpQLwjJT9V38MIVyzdHZum6jbWPnKQReJ9OCo6ymKoyAjNPXtMz84rcv5KOuAx9wJFOA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/requirements.txt?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Jjl5OAKZn9Baj7PqTOpcm3GRnsap3RuWlVmsXVp%2B%2Fll9Hm7mQWGsaf8hIVRltvMW0BsdOVA9d1DHvQVnqbwWIZdwWemtgr12UNXAkB1hClXzVSQoiGk9yngrFSZHCiXJ0%2F2OU%2B6ONupX%2FxNuMiTqta5r5%2Fn8fNjYh6jrCimMp0mL8oizxwAGUBuwXWsT%2BvzYYRmiHtyRoM%2FCbLY%2BNgVgXt%2BBTnktwmftugOybloR0nDG5KKLeOtdJE3kT%2B%2BY%2FgFy%2Bxs1Eh65FTgpefL2eXRpQLwjJT9V38MIVyzdHZum6jbWPnKQReJ9OCo6ymKoyAjNPXtMz84rcv5KOuAx9wJFOA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C2B00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:04:00,365 ERROR   wandb-upload_4:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '3463'}
+2024-03-13 16:04:00,365 ERROR   wandb-upload_4:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:04:00,381 ERROR   wandb-upload_1:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/conda-environment.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=EZRyeZryY%2BPQ9nN7twzWcRjqWsgUC9J3u68ZQdhZjATWzAFRTAX5m3utoHLmAh%2Fab0dsxyFplGc1X9HCZ762aEXnCL3pa9oyJ6dvGrIWmTnuLfcOsYndEVo2fhBPKbNg%2FdcAB1eFLU8La4BIG4V8ayx9RdktxPgb2B9KTjRwT6xhmW0gOvHkd6oZo%2BH0dKNh9Z85DYWsDlza6ONQetUIQDBrQ%2FmDllI8U4anALDlxW0l1qA%2FjWlIfnrmZeQgxGVdk%2B6ywOEOytKqpyjlo88RNePPlcxGErMP%2BRJqKPD%2BR7K9uFEuvKQOXNJ%2FpLiNDzfF59ZhD2vA6JtUOrTxeITW3w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/conda-environment.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=EZRyeZryY%2BPQ9nN7twzWcRjqWsgUC9J3u68ZQdhZjATWzAFRTAX5m3utoHLmAh%2Fab0dsxyFplGc1X9HCZ762aEXnCL3pa9oyJ6dvGrIWmTnuLfcOsYndEVo2fhBPKbNg%2FdcAB1eFLU8La4BIG4V8ayx9RdktxPgb2B9KTjRwT6xhmW0gOvHkd6oZo%2BH0dKNh9Z85DYWsDlza6ONQetUIQDBrQ%2FmDllI8U4anALDlxW0l1qA%2FjWlIfnrmZeQgxGVdk%2B6ywOEOytKqpyjlo88RNePPlcxGErMP%2BRJqKPD%2BR7K9uFEuvKQOXNJ%2FpLiNDzfF59ZhD2vA6JtUOrTxeITW3w%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C2DD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:04:00,381 ERROR   wandb-upload_1:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '9492'}
+2024-03-13 16:04:00,381 ERROR   wandb-upload_1:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:04:00,952 ERROR   wandb-upload_2:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/config.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dy71ZRU%2B1kYKkO3nWHczCDcnOg81r35M%2FQ13IG08uMDrCV8hE%2Beu2oExBAaXKUx%2F0bmAkZIYdcD0uGOlqhPrpIFnokDj5BhmqAIxT%2F1WOR1NtRL0HjFW%2Bcs7DOVgQ5GD71yhVpvkJDONYsXwus3P6DNRZHOC3W%2FqNqRnem8%2BACQ0puRBFZacWQS5MPKv2c%2BL7FnB%2FzgcYL4wJrggyzC3WR6O%2F3jvGe8y867wgV80FCMi5rT5r9zf278ttzndCHpaOBX3dDopOQjHkBO8ap4WrWm3mbwnyVSjE1FHoXj4HpM1QUpFuJ3t1MyNReTsuuWfKo4kONUxwGSB40Tkf4SDDg%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/config.yaml?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dy71ZRU%2B1kYKkO3nWHczCDcnOg81r35M%2FQ13IG08uMDrCV8hE%2Beu2oExBAaXKUx%2F0bmAkZIYdcD0uGOlqhPrpIFnokDj5BhmqAIxT%2F1WOR1NtRL0HjFW%2Bcs7DOVgQ5GD71yhVpvkJDONYsXwus3P6DNRZHOC3W%2FqNqRnem8%2BACQ0puRBFZacWQS5MPKv2c%2BL7FnB%2FzgcYL4wJrggyzC3WR6O%2F3jvGe8y867wgV80FCMi5rT5r9zf278ttzndCHpaOBX3dDopOQjHkBO8ap4WrWm3mbwnyVSjE1FHoXj4HpM1QUpFuJ3t1MyNReTsuuWfKo4kONUxwGSB40Tkf4SDDg%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C2020>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:04:00,953 ERROR   wandb-upload_2:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '456'}
+2024-03-13 16:04:00,953 ERROR   wandb-upload_2:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:04:00,967 ERROR   wandb-upload_3:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/output.log?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ZiGYLkRHV%2BCVL19xFvS%2BhmIWGqOtOoCFMT5VmHuXgLXlt4GDv9Vvw5Wq%2BaiVkfy9xcHxOcArZK%2Bwcf9ikAq37xi3ll451XwyfkH8X3U9SeBLdWjsDrFT1LkGpeyPtrvvc1QunXof9EbGmbcQfVL79MW4GBfFIUMMog2nFet2ijKaYCLxi6Px%2B3jHq5clozYKmMqTcRuLn3zVkUmFRx2Bbak7IAiWAOWuFoY%2Fan1T2ZazDFo6fIYOPy1%2BcoZz5ALQ2riNQ7nD8ZHsxCoHFnWv1u9KJPwROLmbVz57zFS11bw3jZXKxarZ%2BSKtlhEK%2FF8Ju45wuwHgx5m8H4vC2ApWbA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/output.log?Expires=1710403402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ZiGYLkRHV%2BCVL19xFvS%2BhmIWGqOtOoCFMT5VmHuXgLXlt4GDv9Vvw5Wq%2BaiVkfy9xcHxOcArZK%2Bwcf9ikAq37xi3ll451XwyfkH8X3U9SeBLdWjsDrFT1LkGpeyPtrvvc1QunXof9EbGmbcQfVL79MW4GBfFIUMMog2nFet2ijKaYCLxi6Px%2B3jHq5clozYKmMqTcRuLn3zVkUmFRx2Bbak7IAiWAOWuFoY%2Fan1T2ZazDFo6fIYOPy1%2BcoZz5ALQ2riNQ7nD8ZHsxCoHFnWv1u9KJPwROLmbVz57zFS11bw3jZXKxarZ%2BSKtlhEK%2FF8Ju45wuwHgx5m8H4vC2ApWbA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C3D00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:04:00,967 ERROR   wandb-upload_3:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1411'}
+2024-03-13 16:04:00,967 ERROR   wandb-upload_3:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:04:01,013 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:01,014 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:01,619 ERROR   wandb-upload_5:29236 [internal_api.py:upload_file():2556] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-summary.json?Expires=1710403403&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=HCHHS8qBiQdpYGENele1dr0ZRt%2BbviIQjNxvsfim9aUf82uVsDA8T2rM68GboupSbbpyVOQI0JbokpbDK1QJYjAFtm%2FanW7B7DGEsPiZj8B4W24rLKrpgD0zXssMmP43CE1ZdvO4TeioLrUBp1Yt8t52mkpApBrwDo6hQ%2FX0VScdc6rS6zJCUmivdVf7Q82jwvh1Bura0J7ETAsdEsm1fakNPRgpPuUsbFZiiadZZAGaoVkTRUzOWrYs2FMz4OWPA7HTU6ORQeCoje4gxgSJeVB1FFdJ9pjMA8NsN%2Bwbv6bNuzRCmUU7O1DsHCYbMHCcXqNOz75e%2FwQKp5Aidv90zA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/princeporch/uncategorized/stviljmj/wandb-summary.json?Expires=1710403403&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=HCHHS8qBiQdpYGENele1dr0ZRt%2BbviIQjNxvsfim9aUf82uVsDA8T2rM68GboupSbbpyVOQI0JbokpbDK1QJYjAFtm%2FanW7B7DGEsPiZj8B4W24rLKrpgD0zXssMmP43CE1ZdvO4TeioLrUBp1Yt8t52mkpApBrwDo6hQ%2FX0VScdc6rS6zJCUmivdVf7Q82jwvh1Bura0J7ETAsdEsm1fakNPRgpPuUsbFZiiadZZAGaoVkTRUzOWrYs2FMz4OWPA7HTU6ORQeCoje4gxgSJeVB1FFdJ9pjMA8NsN%2Bwbv6bNuzRCmUU7O1DsHCYbMHCcXqNOz75e%2FwQKp5Aidv90zA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002915A6C3EE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-03-13 16:04:01,619 ERROR   wandb-upload_5:29236 [internal_api.py:upload_file():2558] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '206'}
+2024-03-13 16:04:01,619 ERROR   wandb-upload_5:29236 [internal_api.py:upload_file():2560] upload_file response body: 
+2024-03-13 16:04:02,019 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:02,019 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:04:02,020 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:03,030 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:03,031 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:04,043 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:04,044 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:05,052 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:05,053 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:06,054 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:06,055 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:07,059 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:07,059 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:04:07,060 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:08,065 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:08,065 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:09,070 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:09,071 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:10,073 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:10,073 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:11,083 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:11,083 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:12,090 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: status_report
+2024-03-13 16:04:12,091 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:12,091 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:13,104 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:13,105 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:14,115 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:14,115 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit
+2024-03-13 16:04:15,122 DEBUG   HandlerThread:29236 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-13 16:04:15,123 DEBUG   SenderThread:29236 [sender.py:send_request():407] send_request: poll_exit

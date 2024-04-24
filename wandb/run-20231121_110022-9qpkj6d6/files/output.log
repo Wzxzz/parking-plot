@@ -1,0 +1,10 @@
+当前脚本的参数如下：
+Namespace(batch_size=64, img_size=64, input_size=64, epochs=30, learning_rate=0.0001, weather='mix', task='W', model='resnet18')
+当前训练<天气分类器>
+EPOCH:0		LOSS:0.03361523896455765
+Traceback (most recent call last):
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\train.py", line 162, in <module>
+    main()
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\train.py", line 105, in main
+    writer.add_scalar('LastLayerGradients/grad_norm2_weights', para.grad.norm(), n_iter)
+AttributeError: module 'torch.utils.tensorboard.writer' has no attribute 'add_scalar'

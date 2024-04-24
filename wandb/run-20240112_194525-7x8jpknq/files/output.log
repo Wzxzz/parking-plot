@@ -1,0 +1,117 @@
+当前脚本的参数如下：
+Namespace(batch_size=4, img_size=64, input_size=64, epochs=300, learning_rate=0.0001, weather='foggy', task='P', model='resnet18', mixNum=0)
+当前训练<雾天-车位分类器>
+EPOCH:0		LOSS:4.833347797393799
+Epoch:0		ACCURACY:0.00%
+EPOCH:1		LOSS:4.7791643142700195
+Epoch:1		ACCURACY:47.06%
+EPOCH:2		LOSS:4.057993412017822
+Epoch:2		ACCURACY:47.06%
+EPOCH:3		LOSS:3.5088319778442383
+Epoch:3		ACCURACY:47.06%
+EPOCH:4		LOSS:3.4507803916931152
+Epoch:4		ACCURACY:47.06%
+EPOCH:5		LOSS:3.7890853881835938
+Epoch:5		ACCURACY:47.06%
+EPOCH:6		LOSS:0.7204078435897827
+Epoch:6		ACCURACY:52.94%
+EPOCH:7		LOSS:2.601625680923462
+Epoch:7		ACCURACY:52.94%
+EPOCH:8		LOSS:1.5583455562591553
+Epoch:8		ACCURACY:58.82%
+EPOCH:9		LOSS:0.3299352526664734
+Epoch:9		ACCURACY:58.82%
+EPOCH:10		LOSS:0.9149971008300781
+Epoch:10		ACCURACY:52.94%
+EPOCH:11		LOSS:0.8471860289573669
+Epoch:11		ACCURACY:70.59%
+EPOCH:12		LOSS:0.12876825034618378
+Epoch:12		ACCURACY:64.71%
+EPOCH:13		LOSS:0.4772988259792328
+Epoch:13		ACCURACY:70.59%
+EPOCH:14		LOSS:0.14549550414085388
+Epoch:14		ACCURACY:70.59%
+EPOCH:15		LOSS:0.5715113878250122
+Epoch:15		ACCURACY:76.47%
+EPOCH:16		LOSS:0.16841459274291992
+Epoch:16		ACCURACY:70.59%
+EPOCH:17		LOSS:0.7922794818878174
+Epoch:17		ACCURACY:76.47%
+EPOCH:18		LOSS:0.1586809605360031
+Epoch:18		ACCURACY:64.71%
+EPOCH:19		LOSS:0.10478945076465607
+Epoch:19		ACCURACY:64.71%
+EPOCH:20		LOSS:0.053171344101428986
+Epoch:20		ACCURACY:88.24%
+EPOCH:21		LOSS:0.47276556491851807
+Epoch:21		ACCURACY:76.47%
+EPOCH:22		LOSS:0.0727728083729744
+Epoch:22		ACCURACY:64.71%
+EPOCH:23		LOSS:0.2747471332550049
+Epoch:23		ACCURACY:64.71%
+EPOCH:24		LOSS:0.18458253145217896
+Epoch:24		ACCURACY:70.59%
+EPOCH:25		LOSS:0.45644208788871765
+Epoch:25		ACCURACY:70.59%
+EPOCH:26		LOSS:0.02483891323208809
+Epoch:26		ACCURACY:82.35%
+EPOCH:27		LOSS:0.8972436189651489
+Epoch:27		ACCURACY:70.59%
+EPOCH:28		LOSS:0.7719908356666565
+Epoch:28		ACCURACY:70.59%
+EPOCH:29		LOSS:0.12911370396614075
+Epoch:29		ACCURACY:64.71%
+EPOCH:30		LOSS:0.6776944994926453
+Epoch:30		ACCURACY:76.47%
+EPOCH:31		LOSS:0.22943554818630219
+Epoch:31		ACCURACY:70.59%
+EPOCH:32		LOSS:0.0366271510720253
+Epoch:32		ACCURACY:76.47%
+EPOCH:33		LOSS:0.04225713014602661
+Epoch:33		ACCURACY:76.47%
+EPOCH:34		LOSS:0.08961330354213715
+Epoch:34		ACCURACY:76.47%
+EPOCH:35		LOSS:0.03427634388208389
+Epoch:35		ACCURACY:82.35%
+EPOCH:36		LOSS:0.059399932622909546
+Epoch:36		ACCURACY:82.35%
+EPOCH:37		LOSS:0.2367452085018158
+Epoch:37		ACCURACY:76.47%
+EPOCH:38		LOSS:0.011929327622056007
+Epoch:38		ACCURACY:70.59%
+EPOCH:39		LOSS:0.018751436844468117
+Epoch:39		ACCURACY:64.71%
+EPOCH:40		LOSS:1.5461598634719849
+Epoch:40		ACCURACY:76.47%
+EPOCH:41		LOSS:0.10367603600025177
+Epoch:41		ACCURACY:76.47%
+EPOCH:42		LOSS:0.6882102489471436
+Epoch:42		ACCURACY:64.71%
+EPOCH:43		LOSS:0.02967851422727108
+Epoch:43		ACCURACY:70.59%
+EPOCH:44		LOSS:0.2523832321166992
+Epoch:44		ACCURACY:88.24%
+Traceback (most recent call last):
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\train_real.py", line 163, in <module>
+    main()
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\train_real.py", line 85, in main
+    for batchidx, (x, labelP, labelW) in enumerate(train_loader):
+  File "E:\anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "E:\anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "E:\anaconda\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "E:\anaconda\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\dataset2.py", line 76, in __getitem__
+    img = self.tf(img)    # 变为数据
+  File "E:\anaconda\lib\site-packages\torchvision\transforms\transforms.py", line 95, in __call__
+    img = t(img)
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\dataset2.py", line 138, in <lambda>
+    lambda x:Image.open(x).convert('RGB'),  # string path => original data (变为图像的数据类型)
+  File "E:\anaconda\lib\site-packages\PIL\Image.py", line 921, in convert
+    self.load()
+  File "E:\anaconda\lib\site-packages\PIL\ImageFile.py", line 274, in load
+    self.fp.close()
+KeyboardInterrupt

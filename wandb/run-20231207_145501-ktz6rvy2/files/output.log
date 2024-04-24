@@ -1,0 +1,26 @@
+当前脚本的参数如下：
+Namespace(batch_size=64, img_size=64, input_size=64, epochs=30, learning_rate=1e-05, weather='foggy', task='P', model='mynet')
+当前训练<雾天-车位分类器>
+EPOCH:0		LOSS:0.6597573757171631
+Traceback (most recent call last):
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\train_real.py", line 162, in <module>
+    main()
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\train_real.py", line 119, in main
+    for x, labelP, labelW in test_loader:
+  File "E:\anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "E:\anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "E:\anaconda\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "E:\anaconda\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\dataset2.py", line 133, in __getitem__
+    img = self.tf(img)    # 变为数据
+  File "E:\anaconda\lib\site-packages\torchvision\transforms\transforms.py", line 95, in __call__
+    img = t(img)
+  File "E:\自动驾驶\车位检测\parking-space-Identification-in-different-weather-main\dataset2.py", line 149, in <lambda>
+    lambda x: Image.open(x).convert('RGB'),  # string path => original data (变为图像的数据类型)
+  File "E:\anaconda\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'data/real/foggy/busy_9.jpg'
